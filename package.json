@@ -7,9 +7,17 @@
     "build": "rimraf ./build && tsc",
     "start": "npm run build && node build/index.js"
   },
+  "files": [
+    "build/**/*"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "exports": {
+    ".": "./build/index.js",
+    "./package.json": "./package.json"
+  },
+  "type": "module",
   "devDependencies": {
     "@types/node": "^18.8.2",
     "rimraf": "^3.0.2",
