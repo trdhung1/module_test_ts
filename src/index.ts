@@ -1,3 +1,3 @@
-export function showName<String>() {
+export function showName() {
     return 'hi'
 }

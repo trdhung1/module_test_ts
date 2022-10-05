@@ -2,7 +2,7 @@
   "name": "@owner/module_test_ts",
   "version": "1.0.0",
   "description": "",
-  "main": ".build/index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "rimraf ./build && tsc",
     "start": "npm run build && node build/index.js"
@@ -10,7 +10,10 @@
   "files": [
     "build/**/*"
   ],
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "node.js"
+  ],
   "author": "",
   "license": "ISC",
   "exports": {
@@ -19,7 +22,6 @@
     },
     "./package.json": "./package.json"
   },
-  "type": "module",
   "devDependencies": {
     "@types/node": "^18.8.2",
     "rimraf": "^3.0.2",
