@@ -1,5 +1,5 @@
 {
-  "name": "module_test_ts",
+  "name": "@owner/module_test_ts",
   "version": "1.0.0",
   "description": "",
   "main": ".build/index.js",
@@ -14,7 +14,9 @@
   "author": "",
   "license": "ISC",
   "exports": {
-    ".": "./build/index.js",
+    ".": {
+      "default": "./build/index.js"
+    },
     "./package.json": "./package.json"
   },
   "type": "module",
