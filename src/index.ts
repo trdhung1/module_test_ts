@@ -1,3 +1,3 @@
 export function showName() {
-    return 'hi'
+    return 'hi hi'
 }
